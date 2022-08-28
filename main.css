@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-info {
+    width: 480px;
+}
+
+.hero__text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ff9900;
+}
+
+.hero__heading {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.hero__desc {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(35, 47, 62, 0.48);
+}
+
+.hero-btn {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__buy__btn,
+.hero__learn__more {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.hero__buy__btn {
+    padding: 10px 15px;
+    background: #146eb4;
+    color: white;
+}
+
+.hero__learn__more {
+    padding: 10px 30px;
+    border: 1px solid #146eb4;
+    color: #146eb4;
+}
+
+.product-section {
+    padding-top: 82px;
+}
+
+.product-info {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 279px;
+    background: rgba(242, 242, 242, 0.4);
+    padding: 38px 16px 24px;
+}
